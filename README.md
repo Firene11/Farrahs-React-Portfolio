@@ -1,5 +1,5 @@
-# Farrahs-React-Portfolio
+# Farrah's React Portfolio
 
-## Description
+## Learn More
 
-Rebuild my Personal Portfolio using React and deploy to Heroku.
+Rebuid my Personal Profile using React!
