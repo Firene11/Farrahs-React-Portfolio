@@ -2,4 +2,4 @@
 
 ## Description
 
-Rebuild my Personal Portfolio using React and deplot to Heroku.
+Rebuild my Personal Portfolio using React and deploy to Heroku.
