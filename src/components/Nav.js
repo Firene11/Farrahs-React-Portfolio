@@ -1,36 +1,35 @@
 import React from 'react';
 
 export default function Nav() {
-    const linkStyle = { border: '1px black' , padding: '20px', backgroundColor: 'rgba(0, 0, 0, 0.792)', color: 'white', };
-    const nameStyle = { padding: '20px', backgroundColor: 'rgba(0, 0, 0, 0.792)', color: 'white', }
+    const linkStyle = { paddingTop: '15px', paddingBottom: '15px', paddingRight: '60px', color: 'white', };
+    const nameStyle = { marginRight: '30%', marginLeft: '8%', padding: '10px', color: 'white', fontSize: '30px', fontWeight: 'bold', }
 
     return (
       <nav className="menu">
         <section
           style={{
             display: 'flex',
-            fontFamily: 'helvetica',
+            fontFamily: 'Segoe UI',
             flexDirection: 'row',
-            alignItems: 'flex-center',
+            alignItems: 'center',
             justifyContent: 'flex-space-between',
-            width: '100%',
-            margin: '0px',
+            backgroundColor: 'rgba(0, 0, 0, 0.792)',
           }}
         >
           <div style={nameStyle}>
-            Farrah Hodgson
+            FARRAH HODGSON
           </div>
           <div style={linkStyle}>
-            <a href="#About">About</a>
+            <a href="#About">ABOUT</a>
           </div>
           <div style={linkStyle}>
-            <a href="#Work">Work</a>
+            <a href="#Work">WORK</a>
           </div>
           <div style={linkStyle}>
-            <a href="#Contact">Contact</a>
+            <a href="#Contact">CONTACT</a>
           </div>
           <div style={linkStyle}>
-            <a href="/FarrahHodgsonResume2023.pdf">Resume</a>
+            <a href="/FarrahHodgsonResume2023.pdf">RESUME</a>
           </div>
         </section>
       </nav>
