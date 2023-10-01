@@ -1,19 +1,25 @@
 import React from 'react';
 
 export default function Nav() {
-    const linkStyle = { paddingTop: '15px', paddingBottom: '15px', paddingRight: '60px', color: 'white', };
+
+    const linkStyle = { paddingTop: '15px', paddingBottom: '15px', paddingRight: '60px', textDecoration: 'none', color: 'white', };
     const nameStyle = { marginRight: '30%', marginLeft: '8%', padding: '10px', color: 'white', fontSize: '30px', fontWeight: 'bold', }
 
+
     return (
-      <nav className="menu">
+      <nav className="navbar">
         <section
           style={{
             display: 'flex',
+            flexWrap: 'wrap',
+            flex: '1',
             fontFamily: 'Segoe UI',
             flexDirection: 'row',
             alignItems: 'center',
             justifyContent: 'flex-space-between',
-            backgroundColor: 'rgba(0, 0, 0, 0.792)',
+            backgroundColor: 'black',
+            margin: 'auto',
+            padding: '0px',
           }}
         >
           <div style={nameStyle}>
@@ -35,4 +41,5 @@ export default function Nav() {
       </nav>
     );
   }
+  
   
