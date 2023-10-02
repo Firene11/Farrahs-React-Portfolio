@@ -7,6 +7,23 @@ nav a {
     font-weight: bold;
   }
 
+work a {
+    color: black;
+}
+
   a:link { 
     text-decoration: none; 
 }
+
+
+contact a {
+    color: black;
+    padding: 10px;
+}
+
+contact p {
+    color: white;
+    padding-right: 110px;
+}
+
+

@@ -2,18 +2,19 @@ import React from 'react';
 
 export default function About() {
 
-    const titleStyle = {paddingLeft: '105px', paddingTop: '10px', color: 'red', fontSize: '22px', fontWeight: 'bold', };
-    const imageStyle = { padding: '10px', };
+    const titleStyle = {paddingLeft: '105px', paddingTop: '30px', color: 'white', fontSize: '22px', fontWeight: 'bold', };
+    const imageStyle = { padding: '10px',};
     const textStyle = { padding: '20px', color: 'white', fontFamily: 'Segoe UI', }
 
 
     return (
-      <about className="aboutMe"
+      <about className="aboutMe" id="About"
         style={{
             display: 'flex',
             flexDirection: 'column',
             backgroundColor: 'black',
             fontFamily: 'Segoe UI',
+            margin: '-10px',
         }}
       >
 
@@ -31,9 +32,10 @@ export default function About() {
             justifyContent: 'center',
             backgroundColor: 'black',
             margin: 'auto',
-            paddingTop: '10px',
+            paddingTop: '20px',
             paddingLeft: '105px',
             paddingRight: '90px',
+            paddingBottom: '60px',
           }}
           
         >
@@ -46,7 +48,7 @@ export default function About() {
           <div style={textStyle}>
           FARRAH NORRAD Hodgson<br></br>
           <b>FULL STACK WEB DEVELOPER</b><br></br>
-          <hr color="red"></hr>
+          <hr color="blue"></hr>
           <p>
           I live in Fredericton NB; although a grew up in a small town outside fo the city, but Calgary AB was
           my home for a good portion of my life. After working in the paint sales industry for too many years,

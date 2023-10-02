@@ -1,8 +1,8 @@
 import React from 'react';
 
 export default function Header() {
-    const headerStyle = { paddingTop: '10px', paddingBottom: '0px', marginBottom: '-30px', color: 'black', fontSize: '48px' };
-    const arrowStyle = { margin: '0px', padding: '0px', }
+    const headerStyle = { paddingTop: '10px', paddingBottom: '0px', marginBottom: '-30px', marginTop: '50px', color: 'black', fontSize: '78px', fontWeight: 'bolder',};
+    const arrowStyle = { marginBottom: '70px', marginTop: '-30px', padding: '0px', }
 
     return (
       <header className="headerBox">
@@ -16,10 +16,10 @@ export default function Header() {
           }}
         >
           <div style={headerStyle}>
-            Portfolio
+        Portfolio
           </div>
           <div style={arrowStyle}>
-          <img src="https://media.giphy.com/media/KzihUjIfOxh4gvatZO/giphy.gif" width='250px' height='auto'></img>
+          <img src="https://media.giphy.com/media/KzihUjIfOxh4gvatZO/giphy.gif" width='500px' height='auto'></img>
             
           </div>
         </section>
