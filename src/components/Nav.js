@@ -1,6 +1,7 @@
 import React from 'react';
 
-export default function Nav() {
+export default function Nav(props) {
+    const {home} = props;
 
     const linkStyle = { paddingTop: '10px', paddingBottom: '10px', paddingRight: '60px', textDecoration: 'none', color: 'white', fontSize: '14px', };
     const nameStyle = { marginRight: '30%', marginLeft: '10%', padding: '5px', color: 'white', fontSize: '24px', fontWeight: 'bold', }
@@ -22,7 +23,7 @@ export default function Nav() {
           }}
         >
           <div style={nameStyle}>
-            FARRAH HODGSON
+            <a href={home}>FARRAH HODGSON</a>
           </div>
           <div style={linkStyle}>
             <a href="#About">ABOUT</a>

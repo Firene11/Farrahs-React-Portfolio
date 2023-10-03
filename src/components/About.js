@@ -4,7 +4,7 @@ export default function About() {
 
     const titleStyle = {paddingLeft: '105px', paddingTop: '30px', color: 'white', fontSize: '22px', fontWeight: 'bold', };
     const imageStyle = { padding: '10px',};
-    const textStyle = { padding: '20px', color: 'white', fontFamily: 'Segoe UI', }
+    const textStyle = { padding: '20px', color: 'white', fontFamily: 'Segoe UI', fontSize: '16px', fontWeight: 'lighter', }
 
 
     return (
@@ -46,8 +46,8 @@ export default function About() {
           </div>
 
           <div style={textStyle}>
-          FARRAH NORRAD Hodgson<br></br>
-          <b>FULL STACK WEB DEVELOPER</b><br></br>
+          Farrah Hodgson<br></br>
+          <b>FULL STACK WEB DEVELOPER ←</b><br></br>
           <hr color="blue"></hr>
           <p>
           I live in Fredericton NB; although a grew up in a small town outside fo the city, but Calgary AB was

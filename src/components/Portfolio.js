@@ -3,7 +3,6 @@ import React from 'react';
 export default function Work() {
 
     const titleStyle = {paddingLeft: '105px', paddingTop: '10px', color: 'black', fontSize: '22px', fontWeight: 'bold', };
-    const mainCardStyle = { color: 'black', marginRight: '105px', marginLeft: '105px', marginTop: '40px', marginBottom: '30px', fontSize: '20px', fontWeight: 'bold', marginBottom: '0px', border: 'solid', boxShadow: '6px 1px 10px #000000',}
     const cardStyle = { width: '480px', height: 'auto', color: 'black', margin: '30px', fontSize: '20px', fontWeight: 'bold', border: 'solid', boxShadow: '6px 1px 10px #000000',}
 
     return (
