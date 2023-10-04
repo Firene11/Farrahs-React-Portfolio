@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Header(props) {
     const {downArrow} = props;
-    const arrowStyle = { marginBottom: '24px', padding: '0px', }
+    const arrowStyle = { marginBottom: '24px', marginTop: '-10px', }
 
     return (
       <header className="headerBox">

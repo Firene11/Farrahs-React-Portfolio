@@ -26,16 +26,16 @@ export default function Nav(props) {
             <a href={home}>FARRAH HODGSON</a>
           </div>
           <div style={linkStyle}>
-            <a href="#About">ABOUT</a>
+            <a href="/About">ABOUT</a>
           </div>
           <div style={linkStyle}>
-            <a href="#Work">PORTFOLIO</a>
+            <a href="/Work">PORTFOLIO</a>
           </div>
           <div style={linkStyle}>
-            <a href="#Contact">CONTACT</a>
+            <a href="/Contact">CONTACT</a>
           </div>
           <div style={linkStyle}>
-            <a href="/FarrahHodgsonResume2023.pdf">RESUME</a>
+            <a href="/Resume">RESUME</a>
           </div>
         </section>
       </nav>

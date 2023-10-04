@@ -42,24 +42,28 @@ export default function About() {
 
 
           <div style={imageStyle}>
-          <img src="https://firene11.github.io/Personal-Portfolio/images/profile_Fih.jpg" width="250px" height="auto"></img>
+          <img src="https://firene11.github.io/Personal-Portfolio/images/profile_Fih.jpg" width="300px" height="auto"></img>
           </div>
 
           <div style={textStyle}>
-          Farrah Hodgson<br></br>
-          <b>FULL STACK WEB DEVELOPER ←</b><br></br>
-          <hr color="blue"></hr>
+          <span style={{color: 'blue'}}>Farrah Hodgson - Fredericton - New Brunswick - Canada<br></br>
+          <b>FULL STACK WEB DEVELOPER ←</b></span><br></br>
+          <hr></hr>
           <p>
-          I live in Fredericton NB; although a grew up in a small town outside fo the city, but Calgary AB was
-          my home for a good portion of my life. After working in the paint sales industry for too many years,
-           I decided to go back to doing something that I loved in the past... and that is coding! I am a 
-           Full Stack Web Developer graduating from a Coding Bootcamp hosted by the University of New Brunwsick in 
-           October 2023.
-          </p>
+          Hello! I'm a passionate full-stack web developer with a love for both the digital and natural 
+          worlds. When I'm not coding, you can find me exploring the great outdoors, where I often seek
+           adventure and inspiration. I'm a fitness enthusiast, always up for a good workout or hike,
+            and I find solace in vegetable gardening and tending to a colorful array of plants.</p>
 
-        My hobbies include anything outdoors and learning ways to be self-sustainable. I also enjoy things 
-        related to design. I've been selling my crochet pattern designs on Etsy since 2009 and also own 
-        and manage an online clothing store.
+        <p>Creativity flows through me, whether it's in the lines of code I write, the art I create, 
+            or my fascination with interior design. I appreciate the beauty in all forms of design, 
+            and I'm constantly on the lookout for new ways to express myself artistically. In my 
+            downtime, I enjoy the soothing and meditative practice of crochet, turning yarn into 
+            intricate and cozy creations.</p>
+
+        <p>Life is a canvas, and I'm here to explore and fill it with the vibrant colors of my interests and passions. Welcome to my journey! </p>
+
+        
           </div>
         </section>
       </about>

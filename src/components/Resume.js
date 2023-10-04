@@ -20,8 +20,11 @@ export default function Resume(props) {
         <div style={titleStyle}>
             RESUME
           </div>
+          <div>
+            <hr></hr>
+          </div>
 
-          <div style={{marginLeft: '200px', fontWeight: 'bold', fontSize: '16px'}}>
+          <div style={{marginLeft: '105px', fontWeight: 'bold', fontSize: '12px'}}>
             DOWNLOAD MY <a href={resumeLink}>RESUME</a>
             
           </div>
@@ -32,14 +35,12 @@ export default function Resume(props) {
             flex: '1',
             fontFamily: 'Segoe UI',
             flexDirection: 'row',
-            justifyContent: 'flex-space-between',
-            marginLeft: '95px',
+            justifyContent: 'center',
           }}
         >
 
           <div style={textStyle}>
-            <h3>FRONT-END PROFICIENCIES</h3>
-            <hr></hr>
+            <h3 style={{background: 'black', color: 'white', padding: '5px 10px'}}>FRONT-END PROFICIENCIES</h3>
             <p>HTML</p>
             <p>CSS</p>
             <p>JavaScript</p>
@@ -49,8 +50,7 @@ export default function Resume(props) {
           </div>
 
           <div style={textStyle}>
-            <h3>BACK-END PROFICIENCIES</h3>
-            <hr></hr>
+          <h3 style={{background: 'black', color: 'white', padding: '5px 10px'}}>BACK-END PROFICIENCIES</h3>
             <p>APIs</p>
             <p>Node</p>
             <p>Express</p>
@@ -59,9 +59,6 @@ export default function Resume(props) {
             <p>GraphQL</p>
           </div>
 
-          <div style={{paddingLeft: '60px'}}>
-          <img src="https://media.giphy.com/media/icCkic4rahmhR1ch82/giphy.gif" width="380px" height="auto"></img>
-          </div>
         </section>
       </resume>
     );

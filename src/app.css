@@ -26,4 +26,25 @@ contact p {
     padding-right: 110px;
 }
 
+.downArrow {
+    width: 240px;
+    height: auto;
+    margin-top: -35px;
+    margin-bottom: -50px;
+}
 
+card:hover {
+    box-shadow: 25px 25px 20px blue;
+}
+
+.icon {
+    padding: 0px 8px;
+    height: 30px;
+    width: auto;
+}
+
+.icon:hover {
+    border: solid 1px blue;
+    border-radius: 5px 5px;
+    box-shadow: 5px 5px 5px blue;
+}

@@ -33,14 +33,16 @@ export default function Contact(props) {
           }}
           
         >
-
+<div style={{marginTop: '-50px'}}>
+    <img src="https://media.giphy.com/media/dyhZ03Pqoivt4aDkYN/giphy.gif" width='220px' height='auto'></img>
+</div>
 <form style={{color: 'white'}}>
             
 <div className = "form-box">
             <div className = "field1">
             <label> Send me a message! </label>
             <input placeholder="Name" name="name" value={formData.name} onChange={handleChange} />        
-            <input placeholder="E-mail" name="email" value={formData.email} onChange={handleChange} />
+            <input placeholder="E-mail" type= "email" name="email" value={formData.email} onChange={handleChange} />
             <textarea placeholder="Message" name="message" value={formData.message} onChange={handleChange} />
             </div>
 
