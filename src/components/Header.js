@@ -1,8 +1,7 @@
 import React from 'react';
 
 export default function Header(props) {
-    const {downArrow} = props;
-    const arrowStyle = { marginBottom: '24px', marginTop: '-10px', }
+    const {headerImage} = props;
 
     return (
       <header className="headerBox">
@@ -15,8 +14,8 @@ export default function Header(props) {
             justifyContent: 'center',
           }}
         >
-          <div style={arrowStyle}>
-          {downArrow}
+          <div>
+          {headerImage}
             
           </div>
         </section>

@@ -32,6 +32,10 @@ export default function About(props) {
 
         <p style={{textAlign: 'center', marginTop: '-10px'}}>© Farrah Hodgson {year}.</p>
 
+        <div>
+        <img src="./downside_banner.jpg" className= 'headerimg'></img>
+        </div>
+
 
 
       </footer>

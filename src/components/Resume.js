@@ -24,11 +24,6 @@ export default function Resume(props) {
             <hr></hr>
           </div>
 
-          <div style={{marginLeft: '40px', fontWeight: 'bold', fontSize: '12px'}}>
-            DOWNLOAD MY <a href={resumeLink}>RESUME</a>
-            
-          </div>
-
           <section class='resumeTwo'
           style={{
             display: 'flex',
@@ -38,6 +33,9 @@ export default function Resume(props) {
             justifyContent: 'center',
           }}
         >
+          <div style={{ fontWeight: 'bold', fontSize: '14px', paddingTop: '20px'}}>
+            DOWNLOAD MY <a href={resumeLink}>RESUME</a>
+          </div>
 
           <div style={textStyle}>
             <h3 style={{background: 'black', color: 'white', padding: '5px 10px'}}>FRONT-END PROFICIENCIES</h3>

@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function About() {
 
-    const titleStyle = {paddingLeft: '40px', paddingTop: '30px', color: 'white', fontSize: '22px', fontWeight: 'bold', };
+    const titleStyle = {paddingLeft: '40px', paddingTop: '30px', color: 'black', fontSize: '22px', fontWeight: 'bold', };
     const imageStyle = { padding: '10px',};
-    const textStyle = { padding: '20px', color: 'white', fontFamily: 'Segoe UI', fontSize: '16px', fontWeight: 'lighter', }
+    const textStyle = { padding: '20px', color: 'black', fontFamily: 'Segoe UI', fontSize: '16px', }
 
 
     return (
@@ -12,7 +12,7 @@ export default function About() {
         style={{
             display: 'flex',
             flexDirection: 'column',
-            backgroundColor: 'black',
+            backgroundColor: 'white',
             fontFamily: 'Segoe UI',
             margin: '-10px',
         }}
@@ -30,7 +30,6 @@ export default function About() {
             flexDirection: 'row',
             alignItems: 'center',
             justifyContent: 'center',
-            backgroundColor: 'black',
             margin: 'auto',
             paddingTop: '20px',
             paddingLeft: '40px',

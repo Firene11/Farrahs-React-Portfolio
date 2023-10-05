@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Contact(props) {
-    const titleStyle = {paddingLeft: '40px', paddingTop: '10px', marginTop: '30px', marginBottom: '20px', color: 'white', fontSize: '22px', fontWeight: 'bold', };
+    const titleStyle = {paddingLeft: '40px', paddingTop: '10px', marginTop: '30px', marginBottom: '20px', color: 'black', fontSize: '22px', fontWeight: 'bold', };
     const { formData, handleChange, handleSubmit, errorMessage } = props;
     
 
@@ -10,7 +10,6 @@ export default function Contact(props) {
         style={{
             display: 'flex',
             flexDirection: 'column',
-            backgroundColor: 'black',
             fontFamily: 'Segoe UI',
             margin: '-10px',
         }}
@@ -28,16 +27,15 @@ export default function Contact(props) {
             alignItems: 'center',
             justifyContent: 'center',
             backgroundColor: 'black',
-            margin: '-10px',
-            paddingTop: '10px',
-            paddingBottom: '40px',
+            margin: '0px',
+            padding: ' 0px 10px 40px 0px',
           }}
           
         >
-<div style={{marginTop: '-20px'}}>
+<div>
     <img src="https://media.giphy.com/media/dyhZ03Pqoivt4aDkYN/giphy.gif" width='200px' height='auto'></img>
 </div>
-<form style={{color: 'white'}}>
+<form style={{color: 'white', backgroundColor: 'black'}}>
             
 <div className = "form-box">
             <div className = "field1">

@@ -32,10 +32,9 @@ contact p {
 }
 
 .headerimg {
-    width: 120%;
-    height: auto;
-    margin-top: 20px;
-    margin-left: -70px;
+    width: 1500px;
+    height: 150px;
+    margin: 0px 0px 10px -140px;
 }
 
 card:hover {
