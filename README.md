@@ -30,7 +30,7 @@ When you view the footer, you are presented with icon links to my Email, GitHub 
 
 ## Screenshot
 
-[My React Profile](/public/screenshot.jpg)
+![Application](/public/screenshot.jpg)
 
 ## Credits
 
