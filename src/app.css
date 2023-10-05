@@ -7,9 +7,8 @@ nav a {
     font-weight: bold;
   }
 
-  nav a:focus { 
+  .special { 
     color: blue; 
-    cursor: default;
 }
 
 work a {

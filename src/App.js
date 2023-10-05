@@ -8,8 +8,8 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
-
 function App() {
+
   const [errorMessage, setErrorMessage] = useState('');
   let [formData, setFormData] = useState({
     name: "",
@@ -41,7 +41,9 @@ function App() {
       return;
     }
   }
- 
+
+
+
 
   return ( 
     <div style={{backgroundColor: 'white', margin: '0px', fontFamily: 'Segoe UI', }}>
