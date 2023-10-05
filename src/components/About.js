@@ -22,7 +22,7 @@ export default function About() {
             ABOUT
           </div>
 
-        <section
+        <section className='aboutTwo'
           style={{
             display: 'flex',
             flex: '1',

@@ -27,10 +27,10 @@ contact p {
 }
 
 .downArrow {
-    width: 240px;
+    width: 200px;
     height: auto;
-    margin-top: -35px;
-    margin-bottom: -50px;
+    margin-top: 0px;
+    margin-bottom: -20px;
 }
 
 card:hover {
@@ -47,4 +47,66 @@ card:hover {
     border: solid 1px blue;
     border-radius: 5px 5px;
     box-shadow: 5px 5px 5px blue;
+}
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+    body {
+        margin: 6px;
+    }
+    nav a {
+        margin-left: 6px;
+    }
+
+    .aboutTwo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .resumeTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -60px;
+    }
+  }
+
+ /* Large smartphones */
+ @media screen and (max-width: 768px) {
+    body {
+        margin-left: 6px;
+    }
+
+    .aboutTwo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .resumeTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -60px;
+    }
+
+  }
+
+   /* Small smartphones */
+   @media screen and (max-width: 576px) {
+    body {
+        margin-left: 10px;
+    }
+
+    .aboutTwo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .resumeTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -60px;
+    }
 }

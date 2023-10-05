@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function Contact(props) {
     const titleStyle = {paddingLeft: '105px', paddingTop: '10px', marginTop: '30px', marginBottom: '20px', color: 'white', fontSize: '22px', fontWeight: 'bold', };
-    const { formData, handleChange, handleSubmit } = props;
+    const { formData, handleChange, handleSubmit, errorMessage } = props;
+    
 
     return (
       <contact className="contactMe" id="Contact"
@@ -49,6 +50,11 @@ export default function Contact(props) {
             <button onClick={handleSubmit} type = "submit" id= "submitBtn" className = "submitBtn" > Submit</button>
             </div>
         </form>
+        {errorMessage && (
+        <div>
+          <p style={{color: 'red'}}>{errorMessage}</p>
+        </div>
+      )}
         
 
         </section>

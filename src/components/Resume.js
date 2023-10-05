@@ -29,7 +29,7 @@ export default function Resume(props) {
             
           </div>
 
-          <section
+          <section class='resumeTwo'
           style={{
             display: 'flex',
             flex: '1',
