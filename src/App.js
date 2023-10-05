@@ -27,17 +27,17 @@ function App() {
     console.log('Data Submitted', formData)
     if (!formData.name) {
       setErrorMessage('Name is required!');
-      alert('Name is required!');
+      //alert('Name is required!');
       return;
     };
     if (!formData.email) {
       setErrorMessage('Email is required!');
-      alert('Email is required!');
+      //alert('Email is required!');
       return;
     }; 
     if (!formData.message) {
       setErrorMessage('Message required!');
-      alert('Message is required!');
+      //alert('Message is required!');
       return;
     }
   }

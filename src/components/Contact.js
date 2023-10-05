@@ -42,9 +42,9 @@ export default function Contact(props) {
 <div className = "form-box">
             <div className = "field1">
             <label> Send me a message! </label>
-            <input placeholder="Name" name="name" value={formData.name} onChange={handleChange} />        
-            <input placeholder="E-mail" type= "email" name="email" value={formData.email} onChange={handleChange} />
-            <textarea placeholder="Message" name="message" value={formData.message} onChange={handleChange} />
+            <input placeholder="Name" type="text" required name="name" value={formData.name} onChange={handleChange} />        
+            <input placeholder="E-mail" type= "email" required name="email" value={formData.email} onChange={handleChange} />
+            <textarea placeholder="Message" type="text" required name="message" value={formData.message} onChange={handleChange} />
             </div>
 
             <button onClick={handleSubmit} type = "submit" id= "submitBtn" className = "submitBtn" > Submit</button>
