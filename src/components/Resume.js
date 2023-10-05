@@ -36,7 +36,6 @@ export default function Resume(props) {
             fontFamily: 'Segoe UI',
             flexDirection: 'row',
             justifyContent: 'center',
-            gap: '5%'
           }}
         >
 
