@@ -32,7 +32,7 @@ export default function Resume(props) {
           <section class='resumeTwo'
           style={{
             display: 'flex',
-            flex: '1',
+            flexWrap: 'wrap',
             fontFamily: 'Segoe UI',
             flexDirection: 'row',
             justifyContent: 'center',

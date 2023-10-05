@@ -46,7 +46,7 @@ export default function About() {
           </div>
 
           <div style={textStyle}>
-          <span style={{color: 'blue'}}>Farrah Hodgson - Fredericton - New Brunswick - Canada<br></br>
+          <span style={{color: 'blue', fontWeight: 'bold'}}>Farrah Hodgson - Fredericton - New Brunswick - Canada<br></br>
           <b>FULL STACK WEB DEVELOPER ←</b></span><br></br>
           <hr></hr>
           <p>

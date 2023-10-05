@@ -46,7 +46,7 @@ function App() {
   return ( 
     <div style={{backgroundColor: 'white', margin: '0px', fontFamily: 'Segoe UI', }}>
       <Nav home="./" />
-      <Header downArrow =<img src="https://media.giphy.com/media/fisQRnqJsyhCKKngYm/giphy.gif" className= 'downArrow'></img> />
+      <Header downArrow =<img src="./banner_black.jpg" className= 'headerimg'></img> />
       
 
       <Routes>

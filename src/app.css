@@ -7,6 +7,11 @@ nav a {
     font-weight: bold;
   }
 
+  nav a:focus { 
+    color: blue; 
+    cursor: default;
+}
+
 work a {
     color: black;
 }
@@ -26,11 +31,11 @@ contact p {
     padding-right: 110px;
 }
 
-.downArrow {
-    width: 200px;
+.headerimg {
+    width: 120%;
     height: auto;
-    margin-top: 0px;
-    margin-bottom: -20px;
+    margin-top: 20px;
+    margin-left: -70px;
 }
 
 card:hover {
@@ -65,9 +70,12 @@ card:hover {
     }
     .resumeTwo {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: center;
-        margin-left: -60px;
+    }
+
+    card {
+        width: 85%;
     }
   }
 
@@ -88,9 +96,12 @@ card:hover {
     }
     .resumeTwo {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: center;
-        margin-left: -60px;
+    }
+
+    card {
+        width: 85%;
     }
 
   }
@@ -113,7 +124,11 @@ card:hover {
 
     .resumeTwo {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: center;
+    }
+
+    card {
+        width: 85%;
     }
 }
