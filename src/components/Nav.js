@@ -3,7 +3,7 @@ import React from 'react';
 export default function Nav(props) {
     const {home} = props;
 
-    const linkStyle = { paddingTop: '10px', paddingBottom: '10px', paddingRight: '20px', textDecoration: 'none', color: 'white', fontSize: '14px', };
+    const linkStyle = { paddingTop: '10px', paddingBottom: '10px', paddingRight: '20px', textDecoration: 'none', color: 'white', fontSize: '18px', };
     const nameStyle = { marginRight: '60px', marginLeft: '40px', padding: '5px', color: 'white', fontSize: '24px', fontWeight: 'bold', }
 
 
@@ -20,6 +20,7 @@ export default function Nav(props) {
             justifyContent: 'flex-space-between',
             backgroundColor: 'black',
             margin: '-10px',
+            padding: '10px',
             gap: '30%',
           }}
         >
