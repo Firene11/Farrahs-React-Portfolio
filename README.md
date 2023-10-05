@@ -9,6 +9,7 @@ My personal portfolio is a single-page application built with React. When you lo
 ## Table of Contents
 
 - [Usage](#usage)
+- [Screenshot](#screenshot)
 - [Credits](#credits)
 - [Tests](#tests)
 - [License](#license)
@@ -26,6 +27,10 @@ When you are presented with the **Contact** section, you see a contact form with
 When you are presented with the **Resume** section, you see a link to a downloadable resume and a list of my proficiencies.
 
 When you view the footer, you are presented with icon links to my Email, GitHub and LinkedIn profiles. **( I omitted the third party media link because I want to keep those private, !important)**
+
+## Screenshot
+
+[My React Profile](./screenshot.jpg)
 
 ## Credits
 
