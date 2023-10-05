@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
 
-    const titleStyle = {paddingLeft: '105px', paddingTop: '30px', color: 'white', fontSize: '22px', fontWeight: 'bold', };
+    const titleStyle = {paddingLeft: '40px', paddingTop: '30px', color: 'white', fontSize: '22px', fontWeight: 'bold', };
     const imageStyle = { padding: '10px',};
     const textStyle = { padding: '20px', color: 'white', fontFamily: 'Segoe UI', fontSize: '16px', fontWeight: 'lighter', }
 
@@ -33,8 +33,8 @@ export default function About() {
             backgroundColor: 'black',
             margin: 'auto',
             paddingTop: '20px',
-            paddingLeft: '105px',
-            paddingRight: '90px',
+            paddingLeft: '40px',
+            paddingRight: '40px',
             paddingBottom: '60px',
           }}
           

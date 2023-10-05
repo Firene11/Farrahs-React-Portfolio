@@ -3,8 +3,8 @@ import React from 'react';
 export default function Resume(props) {
     const {resumeLink} = props;
 
-    const textStyle = { marginLeft: '105px', color: 'black', fontSize: '14px', paddingBottom: '10px', };
-    const titleStyle = {paddingLeft: '105px', paddingTop: '10px', marginTop: '30px', marginBottom: '20px', color: 'black', fontSize: '22px', fontWeight: 'bold', };
+    const textStyle = { marginLeft: '40px', color: 'black', fontSize: '14px', paddingBottom: '10px', };
+    const titleStyle = {paddingLeft: '40px', paddingTop: '10px', marginTop: '30px', marginBottom: '20px', color: 'black', fontSize: '22px', fontWeight: 'bold', };
 
     return (
         <resume className="resume" id="About"
@@ -24,7 +24,7 @@ export default function Resume(props) {
             <hr></hr>
           </div>
 
-          <div style={{marginLeft: '105px', fontWeight: 'bold', fontSize: '12px'}}>
+          <div style={{marginLeft: '40px', fontWeight: 'bold', fontSize: '12px'}}>
             DOWNLOAD MY <a href={resumeLink}>RESUME</a>
             
           </div>
@@ -36,6 +36,7 @@ export default function Resume(props) {
             fontFamily: 'Segoe UI',
             flexDirection: 'row',
             justifyContent: 'center',
+            gap: '5%'
           }}
         >
 

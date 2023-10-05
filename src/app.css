@@ -52,7 +52,7 @@ card:hover {
 /* Tablets */
 @media screen and (max-width: 992px) {
     body {
-        margin: 6px;
+        margin: 8px;
     }
     nav a {
         margin-left: 6px;
@@ -74,7 +74,11 @@ card:hover {
  /* Large smartphones */
  @media screen and (max-width: 768px) {
     body {
-        margin-left: 6px;
+        margin-left: 8px;
+    }
+
+    .aboutMe {
+        margin-left: -20px;
     }
 
     .aboutTwo {
@@ -97,6 +101,10 @@ card:hover {
         margin-left: 10px;
     }
 
+    .aboutMe {
+        margin-left: -20px;
+    }
+
     .aboutTwo {
         display: flex;
         flex-direction: column;
@@ -107,6 +115,5 @@ card:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: -60px;
     }
 }

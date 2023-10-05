@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Contact(props) {
-    const titleStyle = {paddingLeft: '105px', paddingTop: '10px', marginTop: '30px', marginBottom: '20px', color: 'white', fontSize: '22px', fontWeight: 'bold', };
+    const titleStyle = {paddingLeft: '40px', paddingTop: '10px', marginTop: '30px', marginBottom: '20px', color: 'white', fontSize: '22px', fontWeight: 'bold', };
     const { formData, handleChange, handleSubmit, errorMessage } = props;
     
 
@@ -26,7 +26,7 @@ export default function Contact(props) {
             fontFamily: 'Segoe UI',
             flexDirection: 'column',
             alignItems: 'center',
-            justifyContent: 'flex-space-between',
+            justifyContent: 'center',
             backgroundColor: 'black',
             margin: '-10px',
             paddingTop: '10px',
@@ -34,8 +34,8 @@ export default function Contact(props) {
           }}
           
         >
-<div style={{marginTop: '-50px'}}>
-    <img src="https://media.giphy.com/media/dyhZ03Pqoivt4aDkYN/giphy.gif" width='220px' height='auto'></img>
+<div style={{marginTop: '-20px'}}>
+    <img src="https://media.giphy.com/media/dyhZ03Pqoivt4aDkYN/giphy.gif" width='200px' height='auto'></img>
 </div>
 <form style={{color: 'white'}}>
             
