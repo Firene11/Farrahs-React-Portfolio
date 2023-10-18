@@ -38,7 +38,7 @@ export default function Work() {
   
             <card style={cardStyle}>
             <center><p style={{marginBottom: '-20px'}}><a href="https://fact-v-tech-lounge-client-f58d96d137e5.herokuapp.com/">↓ FACT-V TECH LOUNGE ↓</a></p></center><br></br>
-            <a href="https://fact-v-tech-lounge-client-f58d96d137e5.herokuapp.com/"><img src="/src/images/fact-v-main.jpg" width="100%" height="auto"></img></a>
+            <a href="https://fact-v-tech-lounge-client-f58d96d137e5.herokuapp.com/"><img src="https://github.com/Firene11/Farrahs-React-Portfolio/blob/main/src/images/fact-v-main.jpg?raw=truepg" width="100%" height="auto"></img></a>
             <center><a href="https://github.com/Firene11/fact-v-tech-lounge">VIEW GITHUB REPO</a></center>
             </card>
 
