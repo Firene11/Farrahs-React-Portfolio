@@ -1,7 +1,6 @@
 import React from 'react';
 
-export default function Header(props) {
-    const {headerImage} = props;
+export default function Header() {
 
     return (
       <header className="headerBox">
@@ -15,7 +14,7 @@ export default function Header(props) {
           }}
         >
           <div>
-          {headerImage}
+          
             
           </div>
         </section>

@@ -14,7 +14,7 @@ export default function About() {
             flexDirection: 'column',
             backgroundColor: 'white',
             fontFamily: 'Segoe UI',
-            margin: '-10px',
+            marginTop: '10px',
         }}
       >
 
@@ -30,7 +30,6 @@ export default function About() {
             flexDirection: 'row',
             alignItems: 'center',
             justifyContent: 'center',
-            margin: 'auto',
             paddingTop: '20px',
             paddingLeft: '40px',
             paddingRight: '40px',

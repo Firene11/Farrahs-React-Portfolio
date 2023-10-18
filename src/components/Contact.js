@@ -45,7 +45,7 @@ export default function Contact(props) {
             <textarea placeholder="Message" type="text" required name="message" value={formData.message} onChange={handleChange} />
             </div>
 
-            <button onClick={handleSubmit} type = "submit" id= "submitBtn" className = "submitBtn" > Submit</button>
+            <a href="mailto:365farrah@gmail.com"><button onClick={handleSubmit} type = "submit" id= "submitBtn" className = "submitBtn" mailto = "true"> Submit</button></a>
             </div>
         </form>
         {errorMessage && (
