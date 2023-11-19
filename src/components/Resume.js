@@ -34,7 +34,7 @@ export default function Resume(props) {
           }}
         >
           <div style={{ fontWeight: 'bold', fontSize: '14px', paddingTop: '20px'}}>
-            DOWNLOAD MY <a href={require('/src/images/FarrahHodgsonResume2023.pdf')} target="_blank">RESUME</a>
+            DOWNLOAD MY <a href={require('src/images/FarrahHodgsonResume2023.pdf')} target="_blank">RESUME</a>
           </div>
 
           <div style={textStyle}>
