@@ -1,4 +1,5 @@
 import React from 'react';
+import Pdf from '../Documents/FarrahHodgsonResume2023.pdf';
 
 export default function Resume(props) {
     const {resumeLink} = props;
@@ -34,7 +35,7 @@ export default function Resume(props) {
           }}
         >
           <div style={{ fontWeight: 'bold', fontSize: '14px', paddingTop: '20px'}}>
-            DOWNLOAD MY <a href='/src/Documents/FarrahHodgsonResume2023.pdf'>RESUME</a>
+            DOWNLOAD MY <a href={Pdf} target = "_blank">RESUME</a>
           </div>
 
           <div style={textStyle}>
