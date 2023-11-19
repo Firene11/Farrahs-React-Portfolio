@@ -56,6 +56,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/work' element={<Work />} />
         <Route path='/contact' element={<Contact formData={formData} handleChange={handleChange} handleSubmit={handleSubmit} />} />
+        <Route path='/resume' element={<Resume />} />
         </Routes>
       
 
