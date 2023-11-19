@@ -56,7 +56,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/work' element={<Work />} />
         <Route path='/contact' element={<Contact formData={formData} handleChange={handleChange} handleSubmit={handleSubmit} />} />
-        <Route path='/resume' element={<Resume resumeLink ='https://github.com/Firene11/Farrahs-React-Portfolio/main/src/images/FarrahHodgsonResume2023.pdf' />} />
+        <Route path='/resume' element={<Resume resumeLink ='/srchttps://github.com/Firene11/Farrahs-React-Portfolio/blob/main/src/images/FarrahHodgsonResume2023.pdfhttps://github.com/Firene11/Farrahs-React-Portfolio/blob/main/src/images/FarrahHodgsonResume2023.pdfhttps://github.com/Firene11/Farrahs-React-Portfolio/blob/main/src/images/FarrahHodgsonResume2023.pdfhttps://github.com/Firene11/Farrahs-React-Portfolio/blob/main/src/images/FarrahHodgsonResume2023.pdfhttps://github.com/Firene11/Farrahs-React-Portfolio/blob/main/src/images/FarrahHodgsonResume2023.pdfhttps://github.com/Firene11/Farrahs-React-Portfolio/blob/main/src/images/FarrahHodgsonResume2023.pdfhttps://github.com/Firene11/Farrahs-React-Portfolio/blob/main/src/images/FarrahHodgsonResume2023.pdfhttps://github.com/Firene11/Farrahs-React-Portfolio/blob/main/src/images/FarrahHodgsonResume2023.pdfhttps://github.com/Firene11/Farrahs-React-Portfolio/main/src/images/FarrahHodgsonResume2023.pdf' />} />
         </Routes>
       
 
